@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>M220N</id>
+    <version>1.0.0</version>
+    <authors>M220N</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.AspNetCore.Authentication.JwtBearer" version="3.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.NewtonsoftJson" version="3.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.SpaServices.Extensions" version="3.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.VisualStudio.Web.CodeGeneration.Design" version="3.1.0" exclude="Build,Analyzers" />
+        <dependency id="MongoDB.Bson" version="2.10.0" exclude="Build,Analyzers" />
+        <dependency id="MongoDB.Driver" version="2.10.0" exclude="Build,Analyzers" />
+        <dependency id="System.IdentityModel.Tokens.Jwt" version="5.6.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/netcoreapp3.1/appsettings.Development.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/appsettings.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/ClientApp/package-lock.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/package.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Properties/launchSettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\diche\Downloads\M220N\bin\Debug\netcoreapp3.1\M220N.Views.dll" target="lib\netcoreapp3.1\M220N.Views.dll" />
+    <file src="C:\Users\diche\Downloads\M220N\bin\Debug\netcoreapp3.1\M220N.runtimeconfig.json" target="lib\netcoreapp3.1\M220N.runtimeconfig.json" />
+    <file src="C:\Users\diche\Downloads\M220N\bin\Debug\netcoreapp3.1\M220N.dll" target="lib\netcoreapp3.1\M220N.dll" />
+    <file src="C:\Users\diche\Downloads\M220N\appsettings.Development.json" target="content\appsettings.Development.json" />
+    <file src="C:\Users\diche\Downloads\M220N\appsettings.Development.json" target="contentFiles\any\netcoreapp3.1\appsettings.Development.json" />
+    <file src="C:\Users\diche\Downloads\M220N\appsettings.json" target="content\appsettings.json" />
+    <file src="C:\Users\diche\Downloads\M220N\appsettings.json" target="contentFiles\any\netcoreapp3.1\appsettings.json" />
+    <file src="C:\Users\diche\Downloads\M220N\ClientApp\package-lock.json" target="content\ClientApp\package-lock.json" />
+    <file src="C:\Users\diche\Downloads\M220N\ClientApp\package-lock.json" target="contentFiles\any\netcoreapp3.1\ClientApp\package-lock.json" />
+    <file src="C:\Users\diche\Downloads\M220N\package.json" target="content\package.json" />
+    <file src="C:\Users\diche\Downloads\M220N\package.json" target="contentFiles\any\netcoreapp3.1\package.json" />
+    <file src="C:\Users\diche\Downloads\M220N\Properties\launchSettings.json" target="content\Properties\launchSettings.json" />
+    <file src="C:\Users\diche\Downloads\M220N\Properties\launchSettings.json" target="contentFiles\any\netcoreapp3.1\Properties\launchSettings.json" />
+  </files>
+</package>
